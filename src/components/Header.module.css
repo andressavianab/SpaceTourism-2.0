@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  letter-spacing: 2.35px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+header span {
+  font-weight: 800;
+}
+
+header .nav_bar {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  padding: 2.75rem 10.3125rem 2.75rem 7.6875rem;
+  display: flex;
+  gap: 3rem;
+}
