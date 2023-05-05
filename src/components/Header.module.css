@@ -21,7 +21,15 @@ header span {
 header .nav_bar {
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.7742px);
-  padding: 2.75rem 10.3125rem 2.75rem 7.6875rem;
+  padding: 0 10.3125rem 0 7.6875rem;
   display: flex;
   gap: 3rem;
+}
+
+.nav_bar_link {
+  padding: 2.75rem 0;
+}
+
+.nav_bar_link:hover {
+  border-bottom: 2px solid rgba(255,255,255, 0.5);
 }

@@ -9,20 +9,20 @@ export const Header = () => {
         <img src={logo} alt="" />
       </div>
 
-      <div className={styles.nav_bar}>
-        <Link to={"/"}>
+      <nav className={styles.nav_bar}>
+        <Link to={"/"} className={styles.nav_bar_link}>
           <span>00</span> HOME
         </Link>
-        <Link to={"/destination"}>
+        <Link to={"/destination"} className={styles.nav_bar_link}>
           <span>01</span> DESTINATION
         </Link>
-        <Link to={"#"}>
+        <Link to={"#"} className={styles.nav_bar_link}>
           <span>02</span> CREW
         </Link>
-        <Link to={"#"}>
+        <Link to={"#"}className={styles.nav_bar_link}>
           <span>03</span> TECHNOLOGY
         </Link>
-      </div>
+      </nav>
     </header>
   );
 };
