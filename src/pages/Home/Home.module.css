@@ -1,0 +1,21 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main_text {
+    padding: 0 0 0 10.3125rem;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.explore_button {
+    margin: 4.5498rem 9.6875rem 0 0;
+    max-width: 274px;
+}
