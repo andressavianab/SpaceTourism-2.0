@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import styles from "./Header.module.css";
 
@@ -9,18 +10,18 @@ export const Header = () => {
       </div>
 
       <div className={styles.nav_bar}>
-        <a href="#">
+        <Link to={"/"}>
           <span>00</span> HOME
-        </a>
-        <a href="#">
+        </Link>
+        <Link to={"/destination"}>
           <span>01</span> DESTINATION
-        </a>
-        <a href="#">
+        </Link>
+        <Link to={"#"}>
           <span>02</span> CREW
-        </a>
-        <a href="#">
+        </Link>
+        <Link to={"#"}>
           <span>03</span> TECHNOLOGY
-        </a>
+        </Link>
       </div>
     </header>
   );
