@@ -6,5 +6,5 @@ interface SubtitleProps {
 }
 
 export const Subtitle = ({number, text}: SubtitleProps) => {
-  return <h5 className={styles.h5}><span>{number}</span>{text}</h5>;
+  return <h5 className={styles.h5}><span className={styles.span}>{number}</span>{text}</h5>;
 };

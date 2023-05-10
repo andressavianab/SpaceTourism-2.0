@@ -11,16 +11,16 @@ export const Header = () => {
 
       <nav className={styles.nav_bar}>
         <NavLink to={"/"} className={styles.nav_bar_link}>
-          <span>00</span> HOME
+          <span className={styles.span}>00</span> HOME
         </NavLink>
         <NavLink to={"/destination"} className={styles.nav_bar_link}>
-          <span>01</span> DESTINATION
+          <span className={styles.span}>01</span> DESTINATION
         </NavLink>
         <NavLink to={"/crew"} className={styles.nav_bar_link}>
-          <span>02</span> CREW
+          <span className={styles.span}>02</span> CREW
         </NavLink>
         <NavLink to={"/technology"}className={styles.nav_bar_link}>
-          <span>03</span> TECHNOLOGY
+          <span className={styles.span}>03</span> TECHNOLOGY
         </NavLink>
       </nav>
     </header>

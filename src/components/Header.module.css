@@ -1,4 +1,4 @@
-header {
+.header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -7,18 +7,11 @@ header {
   padding: 2.5rem 0 0 3.4375rem;
 }
 
-header a {
-  text-decoration: none;
-  letter-spacing: 2.35px;
-  font-size: 1rem;
-  color: #fff;
-}
-
-header span {
+.span {
   font-weight: 800;
 }
 
-header .nav_bar {
+.nav_bar {
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(40.7742px);
   padding: 0 10.3125rem 0 7.6875rem;
@@ -27,9 +20,13 @@ header .nav_bar {
 }
 
 .nav_bar_link {
+  text-decoration: none;
+  letter-spacing: 2.35px;
+  font-size: 1rem;
+  color: #fff;
   padding: 2.75rem 0;
 }
 
 .nav_bar_link:hover {
-  border-bottom: 2px solid rgba(255,255,255, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
