@@ -23,7 +23,7 @@ export const Destination = () => {
       <div>
        <Navbar />
         <article className={styles.article}>
-          <h2>{destination.name}</h2>
+          <h2>{destination.name.toUpperCase()}</h2>
           <p>
             {destination.description}
           </p>
@@ -31,11 +31,11 @@ export const Destination = () => {
         <div className={styles.sub_article}>
           <div className={styles.sub_article_div}>
             <span className={styles.sub_heading_1}>AVG. DISTANCE</span>
-            <span className={styles.sub_heading_2}>{destination.distance}</span>
+            <span className={styles.sub_heading_2}>{destination.distance.toUpperCase()}</span>
           </div>
           <div className={styles.sub_article_div}>
             <span className={styles.sub_heading_1}>EST. TRAVEL TIME</span>
-            <span className={styles.sub_heading_2}>{destination.travel}</span>
+            <span className={styles.sub_heading_2}>{destination.travel.toUpperCase()}</span>
           </div>
         </div>
       </div>

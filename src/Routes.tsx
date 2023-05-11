@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
 import { DefaultLayout } from "./layouts/DefaultLayout";
 import { PagesLayout } from "./layouts/PagesLayout";
@@ -9,11 +9,24 @@ export const Router = () => {
     <Routes>
       <Route path="/" element={<DefaultLayout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<PagesLayout number="01" text="PICK YOUR DESTINATION" />}>
-           <Route path="/destination/:name" element={<Destination />} />
+        <Route
+          path="/"
+          element={<PagesLayout number="01" text="PICK YOUR DESTINATION" />}
+        >
+          <Route path="/destination/:name" element={<Destination />} />
         </Route>
-        <Route path="/crew" element={<PagesLayout number="02" text="MEET YOUR CREW" />}/>
-        <Route path="/technology" element={<PagesLayout number="03" text="SPACE LAUNCH 101" />}/>
+        <Route
+          path="/crew"
+          element={<PagesLayout number="02" text="MEET YOUR CREW" />}
+        />
+        <Route
+          path="/technology"
+          element={<PagesLayout number="03" text="SPACE LAUNCH 101" />}
+        />
+        <Route
+          path="/destination"
+          element={<Navigate replace to={"/destination/Moon"} />}
+        />
       </Route>
     </Routes>
   );

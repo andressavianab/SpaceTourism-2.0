@@ -17,7 +17,7 @@ export const Home = () => {
             </p>
             </div>
             <div className={styles.explore_button}>
-                <Link to={"/destination"}>
+                <Link to={"/destination/Moon"}>
                     <img src={exploreButton} alt="" />
                 </Link>
             </div>

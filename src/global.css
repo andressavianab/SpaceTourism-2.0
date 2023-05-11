@@ -59,6 +59,7 @@ p {
   font-family: 'Barlow Condensed', sans-serif;
   color: var(--blue-100);
   font-size: 1.125rem;
+  line-height: 2rem;
 }
 
 .active {

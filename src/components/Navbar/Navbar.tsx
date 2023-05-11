@@ -10,7 +10,7 @@ export const Navbar = () => {
       {destinations.map((destination) => {
         return (
           <NavLink key={destination.name} className={styles.nav_text} to={`/destination/${destination.name}`}>
-            {destination.name}
+            {destination.name.toUpperCase()}
           </NavLink>
         );
       })}
