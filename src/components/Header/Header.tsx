@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.svg";
+import logo from "../../assets/logo.svg";
 import styles from "./Header.module.css";
 
 export const Header = () => {
@@ -13,7 +13,7 @@ export const Header = () => {
         <NavLink to={"/"} className={styles.nav_bar_link}>
           <span className={styles.span}>00</span> HOME
         </NavLink>
-        <NavLink to={"/destination"} className={styles.nav_bar_link}>
+        <NavLink to={"/destination/Moon"} className={styles.nav_bar_link}>
           <span className={styles.span}>01</span> DESTINATION
         </NavLink>
         <NavLink to={"/crew"} className={styles.nav_bar_link}>

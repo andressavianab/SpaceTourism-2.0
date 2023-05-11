@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom"
-import { Subtitle } from "../components/Subtitle"
+import { Subtitle } from "../components/Subtitle/Subtitle"
 
 import '../global.css'
 
