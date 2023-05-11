@@ -1,10 +1,8 @@
 import styles from "./Destination.module.css";
-
-import moon from "../../assets/destination/image-moon.webp";
 import { useParams } from "react-router-dom";
 
 import data from '../../data.json'
-import { Navbar } from "../../components/Navbar/Navbar";
+import { Navbar } from "../../components/NavbarDestination/NavbarDestination";
 
 const destinations = data.destinations
 
@@ -12,7 +10,7 @@ export const Destination = () => {
 
   const params = useParams()
   let destination = destinations.find((destination) => {
-    return destination.name === params.name
+    return destination.name === params.destination
   })
 
   return (

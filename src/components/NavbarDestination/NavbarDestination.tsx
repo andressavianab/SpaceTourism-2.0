@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import data from "../../data.json";
-import styles from "./Navbar.module.css";
+import styles from "./NavbarDestination.module.css";
 
 const destinations = data.destinations;
 

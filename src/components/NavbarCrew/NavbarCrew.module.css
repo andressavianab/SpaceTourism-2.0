@@ -1,0 +1,22 @@
+.nav_bar {
+  margin-top: 7.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav_bar_content {
+  display: flex;
+  border-radius: 50%;
+}
+
+.nav_bar_content::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav_bar_content:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}

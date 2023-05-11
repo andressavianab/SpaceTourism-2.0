@@ -1,0 +1,21 @@
+.main {
+  width: 100%;
+  max-height: 900px;
+  display: flex;
+  gap: 5.089375rem;
+}
+
+.crew_texts {
+  padding-top: 9.625rem;
+  max-width: 488px;
+}
+
+.crew_texts_name {
+  margin-top: 0.9375rem;
+  margin-bottom: 1.16875rem;
+}
+
+.crew_image {
+  object-fit: contain;
+}
+

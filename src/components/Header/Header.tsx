@@ -16,7 +16,7 @@ export const Header = () => {
         <NavLink to={"/destination/Moon"} className={styles.nav_bar_link}>
           <span className={styles.span}>01</span> DESTINATION
         </NavLink>
-        <NavLink to={"/crew"} className={styles.nav_bar_link}>
+        <NavLink to={"/crew/Douglas%20Hurley"} className={styles.nav_bar_link}>
           <span className={styles.span}>02</span> CREW
         </NavLink>
         <NavLink to={"/technology"}className={styles.nav_bar_link}>

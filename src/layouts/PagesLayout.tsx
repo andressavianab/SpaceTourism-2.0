@@ -10,7 +10,7 @@ interface PagesLayoutProps {
 
 export const PagesLayout = ({number, text}: PagesLayoutProps) => { 
     return (
-        <div className="destination_layout">
+        <div className="pages_layout">
             <Subtitle number={number} text={text} />
             <Outlet />
         </div>
